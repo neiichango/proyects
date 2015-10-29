@@ -1,0 +1,137 @@
+body{
+	background: #f00;
+}
+
+.wrapper{
+	width: 866px;
+	height: 784px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+header{
+	width: 730px;
+	height: 73px;
+	margin: 0 auto 10px;
+	background: url("../sample/images/banner_top.jpg");
+	
+
+}
+h1{
+	float: right;
+	font: 30px arial;
+	color: #438A11;
+	padding: 19px 157px 0 0;
+
+}
+
+
+
+main{
+	height: 585px;
+	width: 728px;
+	margin: 0 auto;
+	border: 1px solid #aaa;
+}
+
+
+
+nav{
+	height: 53px;
+	border-bottom: 18px solid #000;
+	padding: 0 0 0 28px;
+}
+
+li{
+	
+	background: #093c03;
+	height: 29px;
+	width: 132px;	
+	float: left;
+	font: 10px 	verdana;
+	margin: 24px 3px 0 0;
+	border-radius: 5px 5px 0 0 ;
+	text-align: center;
+
+}
+
+
+nav a{
+	padding: 9px 0 0 0;
+	display: block;
+	text-decoration: none;
+} 
+a:hover{
+	text-decoration: underline;
+}
+
+a:link{
+	color: #fff;							
+}
+
+#banner{
+	height: 295px;
+	margin: 0 auto 9px;
+}
+
+form{
+	height: 180px;
+	
+	width: 193px; 
+	float: right;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+
+
+.live{
+	height: 94px;
+	width: 520px;
+	float: left;
+	border-top: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+.live img{
+	padding: 12px 0 0 29px; 
+	display: block;
+	float: left;
+	
+}
+
+.live h2{
+	font: 14px verdana;
+	float: right;
+	width: 369px;
+	text-align: right;
+	padding: 3px 48px 0 0;
+	
+
+}
+.live p{
+	font: 10px verdana;
+	float: right;
+	width: 323px;
+	height: 34px;
+	padding: 10px 47px 0 0;
+	text-align: right;
+}
+
+.ticket{
+	height: 85px;
+	width: 520px;
+	float: left;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+
+
+
+img[src="sample/images/picture_ticket.jpg"]{
+	padding: 4px 0 0 21px;
+}
+

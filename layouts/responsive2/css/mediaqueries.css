@@ -1,0 +1,76 @@
+@media screen and (max-width: 980px){
+	.wrapper{
+		width: 95%;
+	}
+
+	article{
+		width: 60%;
+	}
+iframe{
+		max-width: 100%
+	}
+	aside{
+		width: 30%;
+	}
+
+
+}
+
+@media screen and (max-width: 650px){
+	.wrapper{
+		width: 95%;
+	}
+header{ 
+		height: auto;
+	}
+
+	h1{
+		margin: 15px 100px 5px 0;
+		position: static;
+	}
+
+	h2{
+		margin: 0 0 15px;
+		position: static;
+	}
+
+	input[type="search"]{
+		position: absolute;
+		top: 5px;
+		right: 0;
+	}
+
+	nav{
+		position: static;
+	}
+	article{
+		width: auto;
+		float: none;
+		margin: 20px 0;
+	}
+	iframe{
+		max-width: 100%
+	}
+	aside{
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+	@media screen and (max-width: 480px){\
+	iframe{
+			max-width: 100%
+		}
+
+		nav{
+			font-size: 90%;
+			padding: 10px 8px;
+		}	
+
+	}
+
+
+	
+
+}
+

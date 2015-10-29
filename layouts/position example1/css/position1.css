@@ -1,0 +1,41 @@
+body{
+	background: #000;
+}
+
+.wrapper{
+width: 800px;
+height: 400px;
+background: #fff;
+padding: 50px;
+margin: 0 auto;
+right: 100px;
+bottom: 100px; /* no hace nada por q position n esta ni absolute ni relative*/
+
+}
+
+header{
+	width: 400px;
+	background: #0ff;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.news{
+position: absolute;
+background: #f0f;	
+height: 100px;
+width: 100px;
+right: 50px;
+bottom: 50px;
+}
+
+
+
+nav{
+position: absolute;
+background: #f00;	
+height: 100px;
+width: 100px;
+right: 50px;
+bottom: 50px;
+}

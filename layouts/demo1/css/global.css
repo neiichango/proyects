@@ -1,0 +1,55 @@
+body{
+
+	background:#F00;
+	margin: 0;
+
+
+	
+}
+
+
+.wrapper {
+	background: #ccc;
+	width: 728px;
+	height:600px;
+	margin: 0 auto;
+	padding: 0; 
+
+
+}
+
+header{
+	width: 728px;
+	height: 200px;
+	background-color: #FFF;
+}
+
+	.news {
+	width: 364px;
+	height: 200px;
+	background-color: #FF0;
+	float: left;
+
+	}
+
+
+	.reports{
+		width: 182px;
+		height: 200px;
+		background-color: #432;
+		float: right;
+	}
+
+	.sports {
+		width: 182px;
+		height: 200px;
+		background-color: #000;
+		float: right;
+	}
+
+footer {
+width: 728px;
+height: 200px;
+background-color: #F0F;
+clear: both;
+}

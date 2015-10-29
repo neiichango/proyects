@@ -1,0 +1,33 @@
+body{
+	background: #000;
+}
+
+
+
+.row:first-child > div:first-child{
+	background: #00f;
+}
+
+.row:first-child > div:nth-of-type(2){
+	background: #f0f;
+}
+
+.row:nth-of-type(2) > div:nth-of-type(2){
+	background: #ff0;
+}
+.row:nth-of-type(2) > div:first-child{
+	background: #fff;
+}
+
+section:first-child{
+	background: #0f0;
+/*width: 100%;*/
+}
+section:nth-of-type(2){
+	background: #0ff;
+	/*width: 100%;*/
+}
+section[class]{
+		float: none;
+		width: 100%
+} 

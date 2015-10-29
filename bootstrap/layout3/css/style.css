@@ -1,0 +1,16 @@
+body{
+	background: #ff0;
+}
+
+section[class]{
+	width: 100%;
+	background: #f00;
+}
+
+/*.row:nth-of-type(3) > #sec1, #sec2{
+	width: 50%;
+}*/
+
+.row:first-child {
+	background: #fff;
+}

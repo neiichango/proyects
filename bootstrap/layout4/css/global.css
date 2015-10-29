@@ -1,0 +1,13 @@
+body{
+	background: #f00;
+}
+
+.row:first-child{
+	background: #00f;
+}
+.row:nth-of-type(2){
+background: #0f0;
+}
+.row:nth-of-type(3){
+background: #f0f;
+}

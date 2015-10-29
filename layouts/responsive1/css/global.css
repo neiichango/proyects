@@ -1,0 +1,29 @@
+body{
+	background: #f00;
+}
+
+.wrapper{
+	width: 50%;
+	background: #ff0;
+	height: 900px;
+	margin: 0 auto;
+}
+
+
+
+
+.news{
+ width: 50%;
+ height: 50%;
+ background: #0ff;
+ float: left;
+  margin: 50px 0;
+}
+
+.sports{
+width: 50%;
+height: 50%;
+background: #0f0;
+float: left;
+margin: 50px 0;	
+}

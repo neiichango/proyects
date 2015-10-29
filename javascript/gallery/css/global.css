@@ -1,0 +1,47 @@
+body{
+background:#ff0;
+}
+
+.wrapper{
+	width: 1160px;
+	margin: 0 auto;
+
+}
+
+.gallery{
+	width: 960px;
+	height: 540px;
+	margin: 0 auto;
+	background:#f00;
+	overflow: hidden;
+	border-radius: 20px;
+	position: relative;
+}
+
+.itemsList{
+	position: absolute;
+	width: 3840px;
+	height: 540px;
+	left: 0;
+	transition: left 0.5s ease-out;
+
+}
+
+li{
+	display: block;
+	float: left;
+	list-style: none;
+}
+
+.previousBtn{
+position: absolute;
+left: 5px;
+top: 270px;
+cursor: pointer;
+}
+.nextBtn{
+position: absolute;
+right: 5px;
+top: 270px;
+cursor: pointer;
+}
